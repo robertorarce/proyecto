@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mitr", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 320px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-icon {
+  padding: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  font-size: 16px;
+  border: 0;
+  padding: 10px 10px 10px 0;
+  background-color: transparent;
+  width: 100%;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.results ul {
+  list-style-type: none;
+}
+
+.results ul li {
+  padding: 5px 0px;
+  border: 1px solid #d4d4d4;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.results ul li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.list-icon {
+  padding: 5px 10px 5px 10px;
+}
